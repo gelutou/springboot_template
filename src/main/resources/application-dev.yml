@@ -1,0 +1,43 @@
+
+server:
+  port: 9999
+
+spring:
+  ### 配置Redis
+  redis:
+    host: 192.168.3.222
+    port: 6379
+    timeout: 10000
+  datasource:
+    dynamic:
+      primary: fundTrade #设置默认的数据源或者数据源组,默认值即为master
+      strict: false #设置严格模式,默认false不启动. 启动后在未匹配到指定数据源时候会抛出异常,不启动则使用默认数据源.
+      datasource:
+        fundTrade:
+          url: jdbc:p6spy:mysql://192.168.3.222:3306/fund_trade?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+          username: root
+          password: 'dgdB20I5!@#'
+          driver-class-name: com.p6spy.engine.spy.P6SpyDriver # 3.2.0开始支持SPI可省略此配置
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: oliver.springboot_template.*.entity
+  global-config:
+    db-config:
+      table-underline: true
+      #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+      id-type: auto
+      #逻辑删除配置
+      logic-delete-field: DELETED
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    #驼峰下划线转换
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: D:\springboot_template\logs

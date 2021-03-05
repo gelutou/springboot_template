@@ -1,0 +1,94 @@
+2021-03-05 16:15:08.626 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-05 16:15:08.623 [main] INFO  o.s.SpringbootTemplateApplication - Starting SpringbootTemplateApplication using Java 1.8.0_152 on DESKTOP-COS0DVS with PID 32124 (D:\springboot_template\target\classes started by Administrator in D:\springboot_template)
+2021-03-05 16:15:08.640 [main] INFO  o.s.SpringbootTemplateApplication - The following profiles are active: dev
+2021-03-05 16:15:09.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-05 16:15:09.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-05 16:15:09.414 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-03-05 16:15:09.649 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:15:09.650 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8558e331] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:15:09.665 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:15:09.871 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2021-03-05 16:15:09.880 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2021-03-05 16:15:09.882 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-05 16:15:09.882 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-05 16:15:09.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-03-05 16:15:09.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-03-05 16:15:09.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-05 16:15:09.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-05 16:15:10.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-03-05 16:15:10.991 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/template] - Initializing Spring embedded WebApplicationContext
+2021-03-05 16:15:10.991 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2310 ms
+2021-03-05 16:15:11.163 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Starting...
+2021-03-05 16:15:11.327 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Start completed.
+2021-03-05 16:15:11.328 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - load a datasource named [fundTrade] success
+2021-03-05 16:15:11.328 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [fundTrade]
+2021-03-05 16:15:11.891 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-05 16:15:12.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2021-03-05 16:15:12.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/template'
+2021-03-05 16:15:12.212 [main] INFO  o.s.SpringbootTemplateApplication - Started SpringbootTemplateApplication in 4.17 seconds (JVM running for 4.997)
+2021-03-05 16:17:34.960 [http-nio-9999-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/template] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-05 16:17:34.960 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-05 16:17:34.964 [http-nio-9999-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-03-05 16:22:39.877 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-05 16:22:39.883 [main] INFO  o.s.SpringbootTemplateApplication - Starting SpringbootTemplateApplication using Java 1.8.0_152 on DESKTOP-COS0DVS with PID 56748 (D:\springboot_template\target\classes started by Administrator in D:\springboot_template)
+2021-03-05 16:22:39.883 [main] INFO  o.s.SpringbootTemplateApplication - The following profiles are active: dev
+2021-03-05 16:22:40.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-05 16:22:40.576 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-05 16:22:40.600 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-03-05 16:22:40.872 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:40.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$272371c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:40.886 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:41.166 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2021-03-05 16:22:41.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2021-03-05 16:22:41.179 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-05 16:22:41.179 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-05 16:22:41.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-03-05 16:22:41.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-03-05 16:22:41.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-05 16:22:41.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-05 16:22:42.240 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-03-05 16:22:42.334 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/template] - Initializing Spring embedded WebApplicationContext
+2021-03-05 16:22:42.334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2395 ms
+2021-03-05 16:22:42.674 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Starting...
+2021-03-05 16:22:42.905 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Start completed.
+2021-03-05 16:22:42.906 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - load a datasource named [fundTrade] success
+2021-03-05 16:22:42.907 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [fundTrade]
+2021-03-05 16:22:43.718 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-05 16:22:44.168 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/template'
+2021-03-05 16:22:44.177 [main] INFO  o.s.SpringbootTemplateApplication - Started SpringbootTemplateApplication in 4.943 seconds (JVM running for 6.505)
+2021-03-05 16:22:44.275 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-05 16:22:44.291 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2021-03-05 16:22:44.292 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Shutdown initiated...
+2021-03-05 16:22:44.300 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Shutdown completed.
+2021-03-05 16:22:44.300 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2021-03-05 16:22:47.078 [main] INFO  o.s.SpringbootTemplateApplication - Starting SpringbootTemplateApplication using Java 1.8.0_152 on DESKTOP-COS0DVS with PID 27584 (D:\springboot_template\target\classes started by Administrator in D:\springboot_template)
+2021-03-05 16:22:47.081 [main] INFO  o.s.SpringbootTemplateApplication - The following profiles are active: dev
+2021-03-05 16:22:47.094 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-03-05 16:22:47.686 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-05 16:22:47.688 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-05 16:22:47.715 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-03-05 16:22:47.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:48.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f29bdee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:48.010 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-05 16:22:48.264 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2021-03-05 16:22:48.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2021-03-05 16:22:48.272 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-05 16:22:48.273 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-05 16:22:48.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-03-05 16:22:48.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2021-03-05 16:22:48.277 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-05 16:22:48.278 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-05 16:22:49.336 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2021-03-05 16:22:49.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/template] - Initializing Spring embedded WebApplicationContext
+2021-03-05 16:22:49.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2283 ms
+2021-03-05 16:22:49.626 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Starting...
+2021-03-05 16:22:49.796 [main] INFO  com.zaxxer.hikari.HikariDataSource - fundTrade - Start completed.
+2021-03-05 16:22:49.796 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - load a datasource named [fundTrade] success
+2021-03-05 16:22:49.796 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [fundTrade]
+2021-03-05 16:22:50.433 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-05 16:22:50.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2021-03-05 16:22:50.734 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/template'
+2021-03-05 16:22:50.743 [main] INFO  o.s.SpringbootTemplateApplication - Started SpringbootTemplateApplication in 4.199 seconds (JVM running for 4.808)
+2021-03-05 16:23:28.213 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/template] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-05 16:23:28.214 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-05 16:23:28.218 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
